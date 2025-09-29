@@ -1,0 +1,47 @@
+/*Reset-ish*/
+* { box-sizing: border-box; } /* (common mistake to avoid: not "border"; correct) */
+body { margin: 0; font-family: system-ui, Arial, sans-serif; line-height: 1.5; }
+header { padding: 50px; background: lightgrey; color: black; }
+main { padding: 16px; }
+p{font-size:1rem;color:#333;}
+p.intro {color:#333;}
+/* examples of selector shapes refernced later */
+p#highlight {color:#333;}
+button {text-align: center; font-size: 1.125;}
+p{font-size: 15px;}
+footer{padding: 15px;}
+.ashwaq{justify-content:space-between; display:flex;}
+.button{margin-top:15px; margin-buttom:15px;}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
